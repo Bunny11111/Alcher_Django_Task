@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'blog/styles.css' %}">
+    <title>Page 2</title>
+</head>
+<body>
+    <header>Page 2 content</header>
+    <nav>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/page1">Page 1</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+       <h3>This is content of Page 2.</h3> 
+       <img src="{% static 'blog/alcherLogo.jpg' %}" alt="img" class="page-img"> 
+    </main>
+</body>
+</html>
